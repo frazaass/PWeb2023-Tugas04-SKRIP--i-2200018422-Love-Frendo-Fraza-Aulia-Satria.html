@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contoh Halaman Web dengan DIV dan Form</title>
+</head>
+<body>
+  <div id="header">
+    <h1>Selamat Datang Di Halaman Web</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#">Tentang Kami</a></li>
+        <li><a href="#">Kontak</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="main">
+    <h2>Formulir Pendaftaran</h2>
+    <form action="proses.php" method="post">
+      <label for="nama">Nama Lengkap:</label>
+      <input type="text" id="nama" name="nama"><br>
+        <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br>
+
+  <label for="password">Kata Sandi:</label>
+  <input type="password" id="password" name="password"><br>
+
+  <label for="alamat">Alamat:</label>
+  <textarea id="alamat" name="alamat"></textarea><br>
+
+  <label for="kota">Kota:</label>
+  <select id="kota" name="kota">
+    <option value="Jakarta">Jakarta</option>
+    <option value="Bandung">Bandung</option>
+    <option value="Surabaya">Surabaya</option>
+    <option value="Yogyakarta">Yogyakarta</option>
+  </select><br>
+
+  <label for="jenis-kelamin">Jenis Kelamin:</label>
+  <input type="radio" id="laki-laki" name="jenis-kelamin" value="Laki-laki">
+  <label for="laki-laki">Laki-laki</label>
+  <input type="radio" id="perempuan" name="jenis-kelamin" value="Perempuan">
+  <label for="perempuan">Perempuan</label><br>
+
+  <label for="hobi">Hobi:</label>
+  <input type="checkbox" id="membaca" name="hobi" value="Membaca">
+  <label for="membaca">Membaca</label>
+  <input type="checkbox" id="menulis" name="hobi" value="Menulis">
+  <label for="menulis">Menulis</label><br>
+
+  <input type="submit" value="Daftar">
+  <input type="reset" value="Reset">
+</form>
+  </div>
+  <div id="footer">
+    <p>Hak Cipta &copy; 2023 Contoh Halaman Web</p>
+  </div>
+</body>
+</html>
